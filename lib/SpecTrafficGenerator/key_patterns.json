@@ -1,0 +1,7 @@
+	{
+    "<valid-bank-account-number>": ["((^acc((ou)?n)?ts?$|.*acc(((ou)?n)?ts?)?[_\\w]*(num(ber)?s?|nbrs?|nos?(?![a-z])).*)|bank_account_number|bankaccountnumber)"],
+	  "<valid-bank-account-name>": ["(acc((ou)?n)?t[_\\w]*(name|nms?(?![a-z])))"],
+	  "<valid-cash-balance>": ["(balance)"]
+  }
+
+//You can Add more and ofcourse you need to make changes in sending traffic accordingly.
